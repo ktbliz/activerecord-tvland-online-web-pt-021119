@@ -8,4 +8,7 @@ class Actor < ActiveRecord::Base
     "#{first} #{last}"
   end 
   
+  def list_roles 
+    self.characters
+  
 end
