@@ -15,4 +15,4 @@ class Actor < ActiveRecord::Base
     #binding.pry 
   end 
   
-end
+end  
