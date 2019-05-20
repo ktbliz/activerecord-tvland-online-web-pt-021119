@@ -7,5 +7,5 @@ class Show < ActiveRecord::Base
     new_network = Network.new(hash)
     self.network_id = new_network.id  
   end 
-  
+    
 end
